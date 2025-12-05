@@ -14,7 +14,7 @@ const Index = () => {
             <a href="#process" className="text-sm hover:text-primary transition-colors">Процесс</a>
             <a href="#about" className="text-sm hover:text-primary transition-colors">О специалисте</a>
             <a href="#reviews" className="text-sm hover:text-primary transition-colors">Отзывы</a>
-            <a href="#articles" className="text-sm hover:text-primary transition-colors">Статьи</a>
+
             <a href="#booking" className="text-sm hover:text-primary transition-colors">Контакты</a>
           </div>
           <Button asChild>
@@ -61,7 +61,7 @@ const Index = () => {
             </div>
             <div className="animate-fade-in animate-delay-200">
               <img 
-                src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/93ae65b5-5839-4a9b-b86c-0ac70b9296fe.jpg"
+                src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/f3678472-599a-47bc-b893-6d25a457a10f.jpg"
                 alt="Распаковка личности"
                 className="w-full rounded-3xl shadow-2xl"
               />
@@ -309,61 +309,6 @@ const Index = () => {
                 <div className="pt-4">
                   <p className="font-semibold">Елена, 29 лет</p>
                   <p className="text-sm text-muted-foreground">Запрос: самореализация</p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      <section id="articles" className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold">Статьи и материалы</h2>
-            <p className="text-lg text-muted-foreground">Полезные материалы по психологии и саморазвитию</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="rounded-2xl border-2 hover:shadow-xl transition-all overflow-hidden group cursor-pointer">
-              <div className="aspect-video overflow-hidden">
-                <img 
-                  src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/55b9d838-fefa-4e0e-af7e-491f5fc735eb.jpg"
-                  alt="Статья"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <CardContent className="p-6 space-y-3">
-                <h3 className="text-2xl font-semibold group-hover:text-primary transition-colors">
-                  Почему повторяются одни и те же сценарии в жизни?
-                </h3>
-                <p className="text-muted-foreground">
-                  Разбираем системные причины повторяющихся паттернов и как их изменить.
-                </p>
-                <div className="flex items-center gap-2 text-primary pt-2">
-                  <span className="font-medium">Читать далее</span>
-                  <Icon name="ArrowRight" size={20} />
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="rounded-2xl border-2 hover:shadow-xl transition-all overflow-hidden group cursor-pointer">
-              <div className="aspect-video overflow-hidden">
-                <img 
-                  src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/93ae65b5-5839-4a9b-b86c-0ac70b9296fe.jpg"
-                  alt="Статья"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <CardContent className="p-6 space-y-3">
-                <h3 className="text-2xl font-semibold group-hover:text-primary transition-colors">
-                  Как найти корень проблемы, а не латать симптомы
-                </h3>
-                <p className="text-muted-foreground">
-                  Системный подход к решению жизненных задач: от анализа к действию.
-                </p>
-                <div className="flex items-center gap-2 text-primary pt-2">
-                  <span className="font-medium">Читать далее</span>
-                  <Icon name="ArrowRight" size={20} />
                 </div>
               </CardContent>
             </Card>
