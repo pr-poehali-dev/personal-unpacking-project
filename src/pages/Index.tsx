@@ -422,7 +422,7 @@ const Index = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-purple-100 text-center text-muted-foreground">
-            <p>© 2024 Юлия Белова. Все права защищены.</p>
+            <p>© 2025 Юлия Белова. Все права защищены.</p>
           </div>
         </div>
       </footer>
