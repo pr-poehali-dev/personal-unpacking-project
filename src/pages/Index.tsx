@@ -378,64 +378,7 @@ const Index = () => {
             <p className="text-lg text-muted-foreground">Забронируйте распаковку прямо сейчас по специальной цене</p>
           </div>
 
-          <Card className="rounded-3xl border-2">
-            <CardContent className="p-8 md:p-12">
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium">Ваше имя</label>
-                    <Input placeholder="Введите ваше имя" className="rounded-xl" />
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium">Телефон или Telegram</label>
-                    <Input placeholder="+7 или @username" className="rounded-xl" />
-                  </div>
-                </div>
-                
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Email (необязательно)</label>
-                  <Input type="email" placeholder="your@email.com" className="rounded-xl" />
-                </div>
 
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Кратко опишите ваш запрос</label>
-                  <Textarea 
-                    placeholder="Например: повторяющиеся проблемы в отношениях, выбор направления в карьере, поиск своего пути..."
-                    className="rounded-xl min-h-32"
-                  />
-                </div>
-
-                <div className="bg-purple-50 rounded-2xl p-6 space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-lg font-medium">Полная распаковка:</span>
-                    <span className="text-3xl font-bold text-primary">5 500 ₽</span>
-                  </div>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <Icon name="Check" size={18} className="text-primary flex-shrink-0 mt-0.5" />
-                      <span>Диагностическая консультация 30-40 мин</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Check" size={18} className="text-primary flex-shrink-0 mt-0.5" />
-                      <span>Оцифровка сессии + индивидуальные вопросы</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Check" size={18} className="text-primary flex-shrink-0 mt-0.5" />
-                      <span>Распаковка на 5+ страниц с конкретными решениями</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <Button size="lg" className="w-full text-lg py-6 rounded-xl" type="submit">
-                  Забронировать сессию за 5 500 ₽
-                </Button>
-
-                <p className="text-sm text-center text-muted-foreground">
-                  После отправки заявки я свяжусь с вами для выбора удобной даты и времени
-                </p>
-              </form>
-            </CardContent>
-          </Card>
 
           <div className="mt-12 text-center">
             <p className="text-lg mb-4">Или напишите мне напрямую в Telegram:</p>
