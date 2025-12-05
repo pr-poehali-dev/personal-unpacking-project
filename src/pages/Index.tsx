@@ -245,7 +245,7 @@ const Index = () => {
             </div>
             <div className="order-1 md:order-2">
               <img 
-                src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/4fd4a6d6-ba11-4717-9325-d53ee5ab93f4.jpg"
+                src="https://cdn.poehali.dev/files/31abcac9-2c85-43ec-acbf-c0c0a12afc42.jpg"
                 alt="Юлия Белова"
                 className="w-full rounded-3xl shadow-2xl"
               />
