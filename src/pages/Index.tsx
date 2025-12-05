@@ -61,7 +61,7 @@ const Index = () => {
             </div>
             <div className="animate-fade-in animate-delay-200">
               <img 
-                src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/8b121dd8-530d-42de-af91-b34cf156afbd.jpg"
+                src="https://cdn.poehali.dev/projects/f4e19b01-cfdd-4665-a004-488e8849c643/files/ff90b34d-4fc0-4077-8740-64c223f527c7.jpg"
                 alt="Распаковка личности"
                 className="w-full rounded-3xl shadow-2xl"
               />
