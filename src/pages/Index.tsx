@@ -213,11 +213,20 @@ const Index = () => {
             <div className="order-2 md:order-1 space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold">О специалисте</h2>
               <h3 className="text-2xl font-semibold text-primary">Юлия Белова</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Специалист по системным расстановкам и глубинной психологии. Помогаю людям увидеть полную картину их жизни, найти корни проблем и получить конкретные инструменты для изменений.
+              <p className="text-lg font-medium text-foreground leading-relaxed">
+                Психолог, коуч, расстановщик.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Моя методика — это заочная расстановка на бумаге, где каждый элемент вашей жизни анализируется глубоко и структурно. Не просто разговор, а настоящая инструкция к действию.
+                Автор книг и расстановочных иммерсивных шоу «Ключи к жизни».
+                Основатель Международного университета психологии и бизнеса.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Специализируюсь на расстановках и глубинной психологии.
+                Помогаю увидеть полную картину жизни, найти корни проблем и получить конкретные инструменты для изменений.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Моя методика — это заочная расстановка на бумаге, где каждый важный элемент вашей жизни разбирается глубоко и структурно.
+                Не просто разговор, а понятная инструкция к действию.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
