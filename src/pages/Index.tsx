@@ -381,7 +381,7 @@ const Index = () => {
 
 
           <div className="mt-12 text-center">
-            <p className="text-lg mb-4">Или напишите мне напрямую в Telegram:</p>
+            <p className="text-lg mb-4">Напишите мне в Telegram:</p>
             <Button size="lg" variant="outline" className="rounded-xl" asChild>
               <a href="https://t.me/ubelovacoach" target="_blank" rel="noopener noreferrer">
                 <Icon name="MessageCircle" size={20} className="mr-2" />
